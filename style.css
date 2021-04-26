@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Blox2';
+    src:url(./assets/Blox-BRK.ttf.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+Body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title {
+    font-family: 'Blox2';
+    text-align: center;
+    font-size: 4rem;
+    margin-top: .5em;
+    color: #fcc73f;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 100%;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+.grid div {
+    width: 15px;
+    height: 15px;
+}
+.pac-dot {
+    background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+.wall {
+    background-color: blue;
+
+}
+.power-pellet {
+    background-color: green;
+    border-radius: 7.5px;
+}
+.pacman {
+    background-color: #fcc73f;
+    border-radius: 7.5px;
+    border: 0;
+}
