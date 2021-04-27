@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Blox2';
+    src:url(./assets/Blox-BRK.ttf.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+Body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./assets/image/Pixel+art+gifs+most+from+waneella_640531_7253146.gif);
+    background-position: cover;
+    width: 100%;
+}
+
+#title {
+    font-family: 'Blox2';
+    text-align: center;
+    font-size: 4rem;
+    margin-top: .5em;
+    color: #fcc73f;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 420px;
+    border: 3px solid black;
+    margin: 0 auto;
+    /* background: black; */
+}
+.grid div {
+    width: 15px;
+    height: 15px;
+}
+.pac-dot {
+    background-color: green;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+.wall {
+    background-color: blue;
+    border: 0 ;
+}
+.power-pellet {
+    background-color: green;
+    border-radius: 7.5px;
+}
+.pacman {
+    background-color: #fcc73f;
+    border-radius: 7.5px;
+    border: 0;
+}
+.ghost-spawn {
+    /* background: black; */
+}
+.gate {
+    border:0;
+    /* border-top: 2px solid purple; */
+    background: purple;
+}
+
+
+/* score  */
+
+h3 {
+    color: white;
+}
+
+/* ghost */
+
+.blinky {
+    background-color: red;
+    border: none;
+}
+.pinky{ 
+    background-color: pink;
+    border: none;
+}
+.inky {
+    background-color: aqua;
+    border: none
+}
+.clyde {
+    background-color: orange;
+    border: none;
+}
