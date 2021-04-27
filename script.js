@@ -258,7 +258,7 @@ function gameover() {
 }
 
 function winner () {
-    if(score === 1000) {
+    if(score >= 1000) {
         ghosts.forEach(ghost => clearInterval(ghost.timerId))
         document.removeEventListener('keydown', control)
         scoreDisplay.innerHTML = "youre the winner"
